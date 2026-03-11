@@ -26,6 +26,24 @@ Neste desafio, a proposta é replicar (e também melhorar) o projeto prático, c
 
 Você pode fazer um fork do repositório original para organizar suas alterações e evoluções, mantendo uma referência direta ao código base.
 
+## Melhorias Aplicadas
+
+- Aplicacao PHP configuravel por variaveis de ambiente (`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `DB_PORT`)
+- Insercao no banco usando `prepared statement`
+- Schema SQL com chave primaria auto incremento e coluna de data/hora
+- Balanceamento com Nginx usando 3 instancias da aplicacao
+- Ambiente completo com `docker-compose` (MySQL + app1/app2/app3 + load balancer)
+
+## Como Executar
+
+```bash
+docker compose up --build -d
+```
+
+Depois, acesse:
+
+- http://localhost:4500
+
 ## Links Úteis
 
 - [Repositório no GitHub](https://github.com/dancarvofc/toshiro-shibakita)
