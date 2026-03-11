@@ -1,8 +1,13 @@
-CREATE TABLE dados (
-    AlunoID int,
-    Nome varchar(50),
-    Sobrenome varchar(50),
-    Endereco varchar(150),
-    Cidade varchar(50),
-    Host varchar(50)
+CREATE DATABASE IF NOT EXISTS meubanco;
+USE meubanco;
+
+CREATE TABLE IF NOT EXISTS dados (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    AlunoID INT NOT NULL,
+    Nome VARCHAR(50) NOT NULL,
+    Sobrenome VARCHAR(50) NOT NULL,
+    Endereco VARCHAR(150) NOT NULL,
+    Cidade VARCHAR(50) NOT NULL,
+    Host VARCHAR(100) NOT NULL,
+    CriadoEm TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
