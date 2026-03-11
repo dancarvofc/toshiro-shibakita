@@ -13,3 +13,11 @@ Essas são algumas das questões que serão abordadas de forma prática pelo Exp
 - Conhecimentos básicos em Linux
 - Conhecimentos básicos em Docker
 - Conhecimentos básicos em AWS
+
+## Descrição do Desafio
+
+A tecnologia de Containers promete mudar a maneira como as operações de TI são realizadas, abstraindo ambientes de desenvolvimento e otimizando o consumo de recursos.
+
+Neste contexto, o objetivo é conhecer o Docker e implementar uma estrutura de microsserviços com boas práticas de mercado, conquistando maior independência entre aplicações e infraestrutura.
+
+Neste desafio, a proposta é replicar (e também melhorar) o projeto prático, criando um repositório próprio para fortalecer o portfólio no GitHub.
