@@ -21,3 +21,11 @@ A tecnologia de Containers promete mudar a maneira como as operações de TI sã
 Neste contexto, o objetivo é conhecer o Docker e implementar uma estrutura de microsserviços com boas práticas de mercado, conquistando maior independência entre aplicações e infraestrutura.
 
 Neste desafio, a proposta é replicar (e também melhorar) o projeto prático, criando um repositório próprio para fortalecer o portfólio no GitHub.
+
+## Dica
+
+Você pode fazer um fork do repositório original para organizar suas alterações e evoluções, mantendo uma referência direta ao código base.
+
+## Links Úteis
+
+- [Repositório no GitHub](https://github.com/dancarvofc/toshiro-shibakita)
